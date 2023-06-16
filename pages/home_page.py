@@ -68,11 +68,11 @@ class HomePage:
         click_checkout.click()
     
     def verification_your_information_title(self):
-        your_infomation_locator=(By.XPATH, "//span[@class='title' and contains(text(),'Checkout: Your Information']")
-        wait_your_information_field= self.wait.until(EC.presence_of_element_located(your_infomation_locator))
+        your_information_locator = (By.XPATH, "//span[@class='title' and contains(text(),'Checkout: Your Information')]")
+        wait_your_information_field = self.wait.until(EC.presence_of_element_located(your_information_locator))
 
-        your_infomation_locator= wait_your_information_field.text
-        assert your_infomation_locator == "Checkout: Your Information"
+        your_information_text = wait_your_information_field.text
+        assert your_information_text == "Checkout: Your Information"
     
     def filling_the_fields(self,first_name,last_name, zip_code):
         first_name_field_locator = (By.ID, "first-name")
