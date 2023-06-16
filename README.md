@@ -1,6 +1,4 @@
-# Selenium-test
-
-Automation test with Selenium and Python for Swag Labs.
+# Automation test with Selenium and Python for Swag Labs.
 
 
 Basic SWAG Labs Automation Framework
