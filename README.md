@@ -5,22 +5,43 @@ Basic SWAG Labs Automation Framework
 
 Scenarios covered:
 
-	Login with a valid user
+	Open the website https://www.saucedemo.com/ in a maximized window.
 
-	Logout from product's page
+	Fill in the "Username" and "Password" fields using the following values: Username: standard_user Password: secret_sauce
 
-	Navigate to the shopping cart
+	Click the "Login" button.
 
-	Add single item to the shopping cart
+	Verify that you are on the "Products" webpage.
 
-	Add multiple items to the shopping cart
+	Click the "Add to cart" button for two different products (of your choice).
 
-	Fill user's information
+	Click the shopping cart icon in the top right corner.
 
-	Final order items
+	Verify that you are on the "Your Cart" webpage.
 
-	Complete a purchase
+	Verify that the previously added products are in the cart using their names.
 
-	Back to Login page
+	Click the "Checkout" button.
+
+	Verify that you are on the "Checkout: Your Information" webpage.
+
+	Fill in all the fields on the "Checkout: Your Information" webpage.
+
+	Click the "Continue" button.
+
+	Verify that you are on the "Checkout: Overview" webpage.
+
+	Verify that the previously added products are displayed on the "Checkout: Overview" webpage using their names.
+
+	Click the "Finish" button on the "Checkout: Overview" webpage.
+
+	Verify that you are on the "Checkout: Complete!" webpage.
+
+	Click the menu icon in the top left corner.
+
+	Once the menu loads, click the "Logout" link in the menu.
+
+	Verify that you are on the "Login" page.
+
 
 
