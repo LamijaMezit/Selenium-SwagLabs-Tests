@@ -17,8 +17,6 @@ Scenarios covered:
 
 	Add multiple items to the shopping cart
 
-	Continue with missing mail information
-
 	Fill user's information
 
 	Final order items
